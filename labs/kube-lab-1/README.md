@@ -113,9 +113,9 @@ The automated installer is a web interface that does a lot of the work of config
 
 First, log in to New Relic and navigate to the [automated installer](https://one.newrelic.com/launcher/nr1-core.settings?pane=eyJuZXJkbGV0SWQiOiJrOHMtY2x1c3Rlci1leHBsb3Jlci1uZXJkbGV0Lms4cy1zZXR1cCJ9).
 
-Second, enter `Kube-Lab-1` for your _CLUSTER NAME_.
+Enter `Kube-Lab-1` for your _CLUSTER NAME_. Select _Kube state metrics_ for setup options. Select _Kubernetes manifest file_ as your install method. Download the manifest file.
 
-You can leave everything else as-is, ensuring _Kubernetes manifest file_ is the install method. Download the manifest file.
+> **Note:** In these labs, you'll instrument your cluster with only `kube-state-metrics` for simplicity. Know that there are other services you could use, as well, depending on your actual needs.
 
 Apply the manifest changes:
 
