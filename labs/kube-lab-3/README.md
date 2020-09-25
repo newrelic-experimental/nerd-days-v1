@@ -127,7 +127,7 @@ $ helm install newrelic-bundle newrelic/nri-bundle \
     --set ksm.enabled=true
 ```
 
-Don't forget to replace `<YOUR_LICENSE_KEY`> with your actual license key, which you can find at New Relic:
+Don't forget to replace `<YOUR_LICENSE_KEY>` with your actual license key, which you can find at New Relic:
 
 1. [Log in](https://one.newrelic.com/)
 2. Navigate to _Account settings_ from your profile at the top right of the screen
@@ -158,4 +158,4 @@ $ minikube delete
 
 ## Next Steps
 
-Congratulations! You've successfully deployed and instrumented an app in Kubernetes using Helm. If you don't need the flexibility of a manual install, you can also use the automated installer from lab 1! Instead of selecting _Kubernetes m
+Congratulations! You've successfully deployed and instrumented an app in Kubernetes using Helm. You can also use the automated installer from [lab 1](../kube-lab-1/README.md) to generate the `helm install` command if you need more instrumentation! (Instead of selecting _Kubernetes manifest file_ for your install method, select _Helm_.)

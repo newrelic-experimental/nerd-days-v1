@@ -182,4 +182,4 @@ $ minikube delete
 
 ## Next Steps
 
-Congratulations! You've successfully deployed and instrumented an app in Kubernetes using a custom manifest. You can use this method if you need more granular control over your resources. In the final lab, you'll learn how to instrument a Kubernetes cluster built with Helm.
+Congratulations! You've successfully deployed and instrumented an app in Kubernetes using a custom manifest. You can use this method if you need more granular control over your resources. In the [final lab](../kube-lab-3/README.md), you'll learn how to instrument a Kubernetes cluster built with Helm.
