@@ -106,6 +106,8 @@ kubernetes   ClusterIP      10.96.0.1      <none>        443/TCP          3h44m
 
 Visit the service (at port 5000) in your browser:
 
+![Web page](static/index.png)
+
 ## Instrument your service
 
 Great! Now you're running an application in Kubernetes. Next, you'll instrument it with New Relic using our [helm chart](https://docs.newrelic.com/docs/integrations/kubernetes-integration/installation/install-kubernetes-integration-using-helm).
