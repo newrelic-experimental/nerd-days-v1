@@ -6,7 +6,7 @@ Welcome! This lab correlates with the _Integrating New Relic with Kubernetes_ ta
 
 To complete this lab, you need:
 
-- The local Kubernetes cluster you created in [lab 0](../kube-lab-0/README.md)
+- The local Kubernetes cluster you created in [lab 1](../kube-lab-1/README.md)
 - [A New Relic account](https://newrelic.com/signup)
 - [Helm](https://helm.sh/docs/intro/install/)
 
