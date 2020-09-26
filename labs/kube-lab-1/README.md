@@ -1,13 +1,8 @@
 # Integrating New Relic with Kubernetes - Lab 1
 
-Welcome! This lab correlates with the _Integrating New Relic with Kubernetes_ talk from Nerd Days 2020. It is the first of three hands-on labs you'll walk through in your session.
+Welcome! This lab correlates with the _Integrating New Relic with Kubernetes_ talk from Nerd Days 2020. It is the first of four hands-on labs you'll walk through in your session.
 
-In this lab, you'll:
-
-- Deploy a Flask app in a local Kubernetes cluster
-- Integrate New Relic with your cluster **using our automated installer**
-
-Enjoy your session!
+In this lab, you'll deploy a small Flask app in a local Kubernetes cluster using Minikube.
 
 ## Prerequisites
 
@@ -15,7 +10,6 @@ To complete this lab, you need:
 
 - [Docker](https://docs.docker.com/get-docker/)
 - [Minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/)
-- [A New Relic account](https://newrelic.com/signup)
 
 Once you've installed the prerequisite software, you may begin the lab.
 
@@ -59,93 +53,52 @@ $ eval $(minikube -p minikube docker-env)
 In this lab, you'll deploy a small web app in Kubernetes. To do so, build the project's Docker image:
 
 ```console
-$ docker build -t kube-lab-1 .
+$ docker build -t kube-lab .
 ```
 
 Then, apply the manifests in the `kube-manifests` directory:
 
 ```console
 $ kubectl create -f kube-manifests
-deployment.apps/kube-lab-1 created
-service/kube-lab-1 created
+deployment.apps/kube-lab created
+service/kube-lab created
 ```
 
 Finally, check your resources to make sure they exist:
 
 ```console
 $ kubectl get pods
-NAME                          READY   STATUS    RESTARTS   AGE
-kube-lab-1-69cd6c8db8-xvl6h   1/1     Running   0          14m
+NAME                       READY   STATUS    RESTARTS   AGE
+kube-lab-6b7fb45f6-sdw59   1/1     Running   0          6s
 
 $ kubectl get services
-NAME         TYPE           CLUSTER-IP     EXTERNAL-IP   PORT(S)          AGE
-kube-lab-1   LoadBalancer   10.99.10.112   <pending>     5000:30300/TCP   2m58s
-kubernetes   ClusterIP      10.96.0.1      <none>        443/TCP          3h32m
+NAME         TYPE           CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+kube-lab     LoadBalancer   10.101.103.112   <pending>     5000:31453/TCP   13s
+kubernetes   ClusterIP      10.96.0.1        <none>        443/TCP          2m3s
 ```
 
 ## View your application
 
-Notice the `kube-lab-1` load balancer service's pending `EXTERNAL-IP`. You need to expose the LoadBalancer on localhost, using `minikube tunnel` from a different terminal window:
+Notice the `kube-lab` load balancer service's pending `EXTERNAL-IP`. You need to expose the LoadBalancer on localhost, using `minikube tunnel` from a different terminal window:
 
 ```console
 $ minikube tunnel
-🏃  Starting tunnel for service kube-lab-1.
+🏃  Starting tunnel for service kube-lab.
 ```
 
 Now, you should see an `EXTERNAL-IP`:
 
 ```console
 $ kubectl get services
-NAME         TYPE           CLUSTER-IP     EXTERNAL-IP   PORT(S)          AGE
-kube-lab-1   LoadBalancer   10.99.10.112   127.0.0.1     5000:30300/TCP   15m
-kubernetes   ClusterIP      10.96.0.1      <none>        443/TCP          3h44m
+NAME         TYPE           CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+kube-lab     LoadBalancer   10.101.103.112   127.0.0.1     5000:31453/TCP   58s
+kubernetes   ClusterIP      10.96.0.1        <none>        443/TCP          2m48s
 ```
 
 Visit the service (at port 5000) in your browser:
 
 ![Web page](static/index.png)
 
-## Instrument your service
-
-Great! Now you're running an application in Kubernetes. Next, you'll instrument it with New Relic using the [automated installer](https://one.newrelic.com/launcher/nr1-core.settings?pane=eyJuZXJkbGV0SWQiOiJrOHMtY2x1c3Rlci1leHBsb3Jlci1uZXJkbGV0Lms4cy1zZXR1cCJ9).
-
-The automated installer is a web interface that does a lot of the work of configuring your environment for you. In labs 2 and 3, you'll learn different ways to configure your environment without the installer, in case it doesn't provide what you need.
-
-First, log in to New Relic and navigate to the [automated installer](https://one.newrelic.com/launcher/nr1-core.settings?pane=eyJuZXJkbGV0SWQiOiJrOHMtY2x1c3Rlci1leHBsb3Jlci1uZXJkbGV0Lms4cy1zZXR1cCJ9).
-
-Enter `Kube-Lab-1` for your _CLUSTER NAME_. Select _Kube state metrics_ for setup options. Select _Kubernetes manifest file_ as your install method. Download the manifest file.
-
-> **Note:** In these labs, you'll instrument your cluster with only `kube-state-metrics` for simplicity. Know that there are other services you could use, as well, depending on your actual needs.
-
-Apply the manifest changes:
-
-```console
-$ kubectl apply -f <PATH_TO_DOWNLOADED_FILE>
-```
-
-Finally, wait a few minutes and navigate to the [Kubernetes Explorer](https://docs.newrelic.com/docs/integrations/kubernetes-integration/understand-use-data/kubernetes-cluster-explorer):
-
-1. [Log in](https://one.newrelic.com/)
-2. Select _Infrastructure_ from the top navigation
-3. Select _NR1 Kubernetes cluster explorer_ on the right side of the screen
-
-![Navigate to the Cluster Explorer](static/cluster_explorer_link.png)
-
-Select the _Kube-Lab-1_ cluster:
-
-![Explore Kubernetes](static/cluster_explorer.png)
-
-> **Don't panic!** If you see a message about incomplete data for the cluster, refresh in a few minutes.
-
-## Tear down
-
-You can remove all your resources from this lab by spinning down Minikube:
-
-```console
-$ minikube stop
-$ minikube delete
-```
-
 ## Next Steps
 
-Congratulations! You've successfully deployed and instrumented an app in Kubernetes using the automated installer. To learn how to instrument Kubernetes manually, move on to [lab 2](../kube-lab-2/README.md).
+Great work! You've successfully deployed an app in Kubernetes. In the [next lab](../kube-lab-2/README.md), you'll learn how to instrument Kubernetes using our automated installer.

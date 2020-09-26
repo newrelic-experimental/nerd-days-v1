@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: kube-lab-1
+  name: kube-lab
 spec:
   selector:
-    app: kube-lab-1
+    app: kube-lab
   type: LoadBalancer
   ports:
     - port: 5000

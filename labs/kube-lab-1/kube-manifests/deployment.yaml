@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: kube-lab-1
+  name: kube-lab
   labels:
-    app: kube-lab-1
+    app: kube-lab
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: kube-lab-1
+      app: kube-lab
   template:
     metadata:
       labels:
-        app: kube-lab-1
+        app: kube-lab
     spec:
       containers:
         - name: web
-          image: kube-lab-1
+          image: kube-lab
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
