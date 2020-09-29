@@ -1,6 +1,6 @@
 # Integrating New Relic with Kubernetes - Lab 4
 
-Welcome! This lab correlates with the _Integrating New Relic with Kubernetes_ talk from Nerd Days 2020. It is the final hands-on lab you'll walk through in your session.
+Welcome! This lab correlates with the _Integrating New Relic with Kubernetes_ talk from Nerd Days 1.0. It is the final hands-on lab you'll walk through in your session.
 
 ## Prerequisites
 
@@ -64,6 +64,6 @@ $ minikube stop
 $ minikube delete
 ```
 
-## Next Steps
+## Conclusion
 
 Congratulations! You've successfully instrumented an app in Kubernetes using Helm. You can also use the automated installer from [lab 2](../kube-lab-2/README.md) to generate the `helm install` command if you need more instrumentation! (Instead of selecting _Kubernetes manifest file_ for your install method, select _Helm_.)

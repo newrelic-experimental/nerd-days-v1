@@ -1,6 +1,6 @@
 # Integrating New Relic with Kubernetes - Lab 1
 
-Welcome! This lab correlates with the _Integrating New Relic with Kubernetes_ talk from Nerd Days 2020. It is the first of four hands-on labs you'll walk through in your session.
+Welcome! This lab correlates with the _Integrating New Relic with Kubernetes_ talk from Nerd Days 1.0. It is the first of four hands-on labs you'll walk through in your session.
 
 In this lab, you'll deploy a small Flask app in a local Kubernetes cluster using Minikube.
 
