@@ -5,23 +5,29 @@
 # Nerd Days V1 Guide
 __What is Nerd Days?__
 
-A __*FREE*__ developer-focused digital conference covering a range of topics at varying levels for all skill sets, including:
+A __*FREE*__, developer-focused, digital conference covering a range of topics for all skill sets. Sessions include:
 
 - Live workshops
 - Live coding and demos
 - Customer examples
-- Panel / Q&A sessions
+- Panel / Q&A
 
-This repo provides everything to get set up for Nerd Days 1.0; in this repository, you will find a complete catalog of prerequisites and resources for all of the sessions presented at Nerd Days AMER. Use this guide to help you get started and attend your sessions prepared to follow along.
+This repo provides everything you need for Nerd Days 1.0, including a catalog of prerequisites and resources for all sessions presented at Nerd Days AMER.
+
+Use this guide to prepare for your sessions to that you can follow along.
 
 ## Getting Started
-Nerd Days is a full-day conference with five tracks covering topics on Fundamentals, Observability, Cloud Migration, DevOps Journey, and Open-Source practices. Each session may have individual prerequisites that can be found using the links in the schedule below.
+Nerd Days is a full-day conference with five tracks:
 
-__All Nerd Day sessions will require a New Relic account.__ If you don't have an account -  [Free Tier Sign Up Link.](https://newrelic.com/signup)
+- Fundamentals
+- Observability
+- Cloud Migration
+- DevOps Journey
+- Open-Source Practices
 
-> *More details about the free tier can be found below.*
+Each session may have individual prerequisites that you can find using the links in the schedule below.
 
-
+> **IMPORTANT! All Nerd Days sessions require a New Relic account.** If you don't already have one, [sign up](https://newrelic.com/signup) for our [free tier](#free-tier-overview).
 
 # Agenda
 |Time|Title|Track|Prerequisites|
@@ -65,15 +71,15 @@ __All Nerd Day sessions will require a New Relic account.__ If you don't have an
 
 ## Free Tier Overview
 
-__With your new account, you get:__
+With your new account, you get:
 
 __Perpetually free access__<br>
-100 GB/month of free data ingest. 1 free full access user. Unlimited free basic users.<br><br>
+100 GB/month of free data ingest. 1 free full access user. Unlimited free basic users.<br>
 
 __One data platform for all metrics, logs, events, and traces__<br>
-Petabyte scale. Millisecond speed. Pennies per gigabyte (beyond free tier).<br><br>
+Petabyte scale. Millisecond speed. Pennies per gigabyte (beyond free tier).<br>
 
-__Easily visualize, analyze & troubleshoot your entire stack__<br>
-APM, Infrastructure Monitoring, Digital Experience Monitoring, Applied Intelligence, and more.<br><br>
+__Easy visualization, analysis, and troubleshooting of your entire stack__<br>
+APM, Infrastructure Monitoring, Digital Experience Monitoring, Applied Intelligence, and more.<br>
 
-__All Nerd Day sessions will require a New Relic account.__ If you don't have an account -  [Free Tier Sign Up Link.](https://newrelic.com/signup)
+> **IMPORTANT! All Nerd Days sessions require a New Relic account.** If you don't already have one, [sign up](https://newrelic.com/signup) for our free tier.
