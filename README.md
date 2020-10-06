@@ -14,7 +14,7 @@ A __*FREE*__, developer-focused, digital conference covering a range of topics f
 
 This repo provides everything you need for Nerd Days 1.0, including a catalog of prerequisites and resources for all sessions presented at Nerd Days AMER.
 
-Use this guide to prepare for your sessions to that you can follow along.
+Use this guide to prepare for your sessions so that you can follow along.
 
 ## Getting Started
 Nerd Days is a full-day conference with five tracks:
