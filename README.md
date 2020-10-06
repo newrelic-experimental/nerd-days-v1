@@ -5,7 +5,7 @@
 # Nerd Days V1 Guide
 __What is Nerd Days?__
 
-A __*FREE*__, developer-focused, digital conference covering a range of topics for all skill sets. Sessions include:
+A __*FREE*__, developer-focused, digital conference that covers a range of topics for all skill sets. Sessions include:
 
 - Live workshops
 - Live coding and demos
