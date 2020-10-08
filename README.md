@@ -26,38 +26,31 @@ __All Nerd Day sessions will require a New Relic account.__ If you don't have an
 # Agenda
 |Time|Title|Track|Prerequisites|
 |---|--|--|--|
-|__9:00AM PST__|
 |9:00AM PST|Keynote: Jemiah Sius, Lew Cirne, and Special Guest Announcements|
-|__10:00AM PST__|
-|10:00AM PST|Instrumenting your service using agents|Fundamentals|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/fundamentals-track/README.md) |
-|10:00AM PST|New Relic CLI Wizardry|Observabiltiy|---|
+|10:00AM PST|Instrumenting your service using agents|Fundamentals|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/fundamentals-track/README.md)|
+|10:00AM PST|New Relic CLI Wizardry|Observabiltiy|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/new-relic-cli-wizardry/README.md)|
 |10:00AM PST|5 Steps to Kubernetes Observability|Cloud Migration|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/5-steps-to-kubernetes-observability/README.md)|
 |10:00AM PST|Delivering SRE as a Service|DevOps Journey|---|
 |10:00AM PST|Building applications on New Relic One|Open Source|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/building-applications/README.md)|
-|__11:00AM PST__|
 |11:00AM PST|Exploring your data using NRQL|Fundamentals|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/fundamentals-track/README.md)|
-|11:00AM PST|New Relic AI|Observabiltiy|---|
+|11:00AM PST|New Relic AI|Observabiltiy|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/new-relic-ai/README.md)|
 |11:00AM PST|Going Serverless: Chipping at the monolith|Cloud Migration|---|
 |11:00AM PST|Logging for Modern Organizations|DevOps Journey|---|
-|11:00AM PST|Grafana and Prometheus with New Relic|Open Source|---|
-|__12:00PM PST__|
+|11:00AM PST|Power up your Prometheus metrics with the Telemetry Data Platform|Open Source|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/power-up-your-prometheus-metircs/README.md)|
 |12:00PM PST|Lunch with Lew|
-|__1:00PM PST__|
 |1:00PM PST|Custom Instrumentation|Fundamentals|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/fundamentals-track/README.md)|
 |1:00PM PST|Exploring Data with NerdGraph|Observabiltiy|---|
 |1:00PM PST|Tool Consolidation|Cloud Migration|---|
 |1:00PM PST|Testing in Production|DevOps Journey|---|
 |1:00PM PST|How Open Source powers the New Relic One Catalog|Open Source|---|
-|__2:00PM PST__|
 |2:00PM PST|Alerts Best Practices|Fundamentals|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/fundamentals-track/README.md)|
 |2:00PM PST|The Art & Science of Deciphering Perceived Performance|Observabiltiy|---|
 |2:00PM PST|Monitoring your Cloud Usage and Spend|Cloud Migration|---|
-|2:00PM PST|Measuring code pipelines|DevOps Journey|---|
-|2:00PM PST|Reducing toil with Terraform|Open Source|---|
-|__3:00PM PST__|
+|2:00PM PST|Measuring code pipelines|DevOps Journey|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/measure-code-pipelines/README.md)|
+|2:00PM PST|Reducing toil with Terraform|Open Source|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/reducing-toil-with-terraform/README.md)|
 |3:00PM PST|True availability using Synthetics|Fundamentals|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/fundamentals-track/README.md)|
-|3:00PM PST|How Observability-Driven Development accelerates DevOps transformations|Observabiltiy|---|
-|3:00PM PST|AWS Modernization|Cloud Migration|---|
+|3:00PM PST|How Observability-Driven Development accelerates DevOps transformations|Observabiltiy|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/observability-driven-development/README.md)|
+|3:00PM PST|AWS Modernization|Cloud Migration|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/aws-modernization/README.md)|
 |3:00PM PST|Writing Reliably Bad Software, AKA 'How to get paid to write memory leaks'|DevOps Journey|---|
 |3:00PM PST|NerdStorageVault: ThirdParty Secrets|Open Source|---|
 
