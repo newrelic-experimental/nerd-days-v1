@@ -3,5 +3,6 @@ During this hands-on session you will learn how to set up and use the New Relic 
 
 
 ## Prerequisites
-1. New Relic Account
+1. A New Relic account
+> If you dont have an account -  [Free Tier Sign Up Link](https://newrelic.com/signup)
 2. Please create an account at [instruqt.com](http://instruqt.com) before this hands-on session.  Instruqt will be used to get access to a real Kubernetes environment.

@@ -11,5 +11,6 @@ __Deliverables__<br>
 Attendees will walk away with an improved understanding of what observability is and how an observability-driven culture can improve their DevOps operating model, along with actionable steps on how they can leverage New Relic to achieve this goal."
 
 ## Prerequisites
-1. New Relic account -  [Free Tier Sign Up](https://newrelic.com/signup)
+1. A New Relic account
+> If you dont have an account -  [Free Tier Sign Up Link](https://newrelic.com/signup)
 2. AWS Account (also free) - [Free Tier Sign Up](https://aws.amazon.com/free/)

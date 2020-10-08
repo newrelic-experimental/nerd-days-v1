@@ -9,5 +9,6 @@ __Topics include:__
 
 
 ## Prerequisites
-1. For this session participants will be able to log in to a New Relic guest account (credentials will be shared at the start of the session).
+1. A New Relic account
+> If you dont have an account -  [Free Tier Sign Up Link](https://newrelic.com/signup)
 2. __Optional:__ access to a Slack account where participants can configure apps. We’ll be using the New Relic AI Slack app: [https://newrelic.slack.com/apps/AP92KQJS3-new-relic-ai](https://newrelic.slack.com/apps/AP92KQJS3-new-relic-ai)

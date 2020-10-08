@@ -8,5 +8,7 @@ In this hands-on workshop you’ll integrate Prometheus metrics, link existing G
 ## Prerequisites
 For this session you will need Docker, a New Relic account and also an Instruqt account for the online tutorial.  These should ideally be done before the session but can also be done as part of the session.
 
-1. If you don't have an account, [sign up for your free New Relic account here](https://newrelic.com/signup)
+1. A New Relic account
+> If you dont have an account -  [Free Tier Sign Up Link](https://newrelic.com/signup)
 2. Sign up for your [free Instruqt account here](https://instruqt.com/signup)
+3. __Optional:__ Register an Insights Query API Key - Steps 1 to 4: https://docs.newrelic.com/docs/insights/insights-api/get-data/query-insights-event-data-api
