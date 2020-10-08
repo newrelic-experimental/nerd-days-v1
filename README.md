@@ -51,7 +51,7 @@ Each session may have individual prerequisites that you can find using the links
 |__1:00PM PST__|
 |1:00PM PST|Custom Instrumentation|Fundamentals|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/fundamentals-track/README.md)|
 |1:00PM PST|Exploring Data with NerdGraph|Observability|---|
-|1:00PM PST|Tool Consolidation|Cloud Migration|---|
+|1:00PM PST|Consolidating Your Data with New Relic’s Telemetry Data Platform|Observablity|---|
 |1:00PM PST|Testing in Production|DevOps Journey|---|
 |1:00PM PST|How Open Source powers the New Relic One Catalog|Open Source|---|
 |__2:00PM PST__|
