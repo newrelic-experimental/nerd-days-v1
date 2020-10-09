@@ -19,8 +19,8 @@ Use this guide to prepare for your sessions so that you can follow along.
 ## Getting Started
 Nerd Days is a full-day conference with five tracks:
 
-- Fundamentals
-- Observability
+- [Fundamentals](fundamentals-track/README.md)
+- [Observability](observability-track/README.md)
 - Cloud Migration
 - DevOps Journey
 - Open-Source Practices
@@ -33,7 +33,7 @@ Each session may have individual prerequisites that you can find using the links
 |Time|Title|Track|Prerequisites|
 |---|--|--|--|
 |9:00AM PST|Keynote: Jemiah Sius, Lew Cirne, and Special Guest Announcements|
-|10:00AM PST|Instrumenting your service using agents|Fundamentals|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/tree/main/fundamentals-track/README.md)|
+|10:00AM PST|Instrumenting your service using agents|Fundamentals|---|
 |10:00AM PST|New Relic CLI Wizardry|Observabiltiy|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/tree/main/new-relic-cli-wizardry/README.md)|
 |10:00AM PST|5 Steps to Kubernetes Observability|Cloud Migration|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/tree/main/5-steps-to-kubernetes-observability/README.md)|
 |10:00AM PST|Delivering SRE as a Service|DevOps Journey|---|
