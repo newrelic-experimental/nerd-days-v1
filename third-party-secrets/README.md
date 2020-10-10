@@ -31,7 +31,7 @@ This workshop assumes you have **completed the following prerequisites:**
 
 1. Install Node 10+ [NodeJs](https://nodejs.org/en/)
 2. If you've installed Node.js, then you also have NPM installed which is needed
-3. NPM install the [Nr1-community component library](https://www.npmjs.com/package/@newrelic/nr1-community/v/1.3.0-alpha.2)
+3. NPM install the [Nr1-community component library](https://www.npmjs.com/package/@newrelic/nr1-community/v/0.0.1-alpha.4)
 4. be sure to run `npm install @newrelic/nr1-community@next` to grab the correct alpha package.
 
 Need more help? see our [Dev environment setup guide](https://developer.newrelic.com/build-apps/set-up-dev-env)
