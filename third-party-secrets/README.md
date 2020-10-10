@@ -47,3 +47,7 @@ Need more help? see our [Hello World tutorial guide](https://developer.newrelic.
 
 1. Decide what 3rd party service you'd like to retrieve data from.
 2. setup a Personal Access Token, API Key, or license key for that service with the proper READ permissions.
+
+### Sample Application
+
+You can find a simple sample application in this [REPO](https://github.com/jpvajda/nerddaysV1) to get you started!
