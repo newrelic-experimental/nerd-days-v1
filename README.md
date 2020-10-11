@@ -52,7 +52,7 @@ Each session may have individual prerequisites that you can find using the links
 |2:00PM PST|Alerts Best Practices|Fundamentals|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/tree/main/fundamentals-track/README.md)|
 |2:00PM PST|The Art & Science of Deciphering Perceived Performance|Observability|---|
 |2:00PM PST|Monitoring your Cloud Usage and Spend|Cloud Migration|---|
-|2:00PM PST|Measuring code pipelines|DevOps Journey|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/tree/main/measuring-code-pipelines/README.md)|
+|2:00PM PST|Scaling the Developer Toolkit Team: Writing Code that Writes Code|DevOps Journey|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/tree/main/scaling-developer-toolkit/README.md)|
 |2:00PM PST|Reducing toil with Terraform|Open Source|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/tree/main/reducing-toil-with-terraform/README.md)|
 |3:00PM PST|True availability using Synthetics|Fundamentals|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/tree/main/fundamentals-track/README.md)|
 |3:00PM PST|How Observability-Driven Development accelerates DevOps transformations|Observabiltiy|[Setup](https://github.com/newrelic-experimental/nerd-days-v1/tree/main/observability-driven-development/README.md)|
