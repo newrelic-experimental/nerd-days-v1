@@ -1,16 +1,18 @@
 # How Observability-Driven Development accelerates DevOps transformations
 
-In the world of cloud platforms and applications, efficient collaboration between software development and operation teams is a requirement for any successful organization. While software, DevOps, and SRE teams should work to streamline and automate the software development lifecycle, how do these teams know where to focus their times and how they are impacting overall delivery performance.
+In the world of cloud platforms and applications, efficient collaboration between software development and operations teams is a requirement for any successful organization. Software development, DevOps, and SRE teams should work to streamline and automate the software development lifecycle, but how do these teams know where to focus their times, and how are they impacting overall delivery performance? Kinect Consulting will answer these questions and more throughout this presentation as they teach you about Observability-Driven Development.
 
-In this talk, Kinect Consulting will discuss what Observability-Driven Development is, how it accelerates and improves DevOps transformations, and provide real-world examples of actionable steps attendees can take to move towards an Observability-Driven Development approach and closer to a DevOps Operating Model.
+## Key Takeaways
 
-__Audience__<br>
-This talk is for engineering staff and engineering management who are starting to transform or looking improve their team’s DevOps operating model. Attendees are expected to have an intermediate understanding of software development, cloud, and DevOps.
+In this session, you'll learn:
 
-__Deliverables__<br>
-Attendees will walk away with an improved understanding of what observability is and how an observability-driven culture can improve their DevOps operating model, along with actionable steps on how they can leverage New Relic to achieve this goal."
+- What observability is
+- How an observability-driven culture can improve your DevOps operating model
+- How you can leverage New Relic to build an observability-driven culture
 
 ## Prerequisites
-1. A New Relic account
-> If you dont have an account -  [Free Tier Sign Up Link](https://newrelic.com/signup)
-2. AWS Account (also free) - [Free Tier Sign Up](https://aws.amazon.com/free/)
+
+> **Important!** Please install software, create accounts, or follow any other instructions **before** attending this Nerd Days session. This will ensure that you're ready for the hands-on labs. We want you to spend your lab time learning, rather than setting up your environment.
+
+1. [A New Relic account](https://newrelic.com/signup)
+2. [An AWS account](https://aws.amazon.com/free)

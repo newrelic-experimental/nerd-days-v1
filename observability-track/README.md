@@ -10,15 +10,11 @@ In [this session](new-relic-cli-wizardry/README.md), you'll learn to use the New
 
 ## Exploring Data with NerdGraph (1:00 PM PDT)
 
-In this session, you'll learn about NerdGraph, queries, using NerdGraph in code, and the NerdGraph API explorer.
-
-**WIP: Need session**
+In [this session](exploring-data-with-nerdgraph/README.md), you'll learn all about NerdGraph, New Relic's GraphQL API.
 
 ## The Art and Science of Deciphering Perceived Performance (2:00 PM PDT)
 
-In this session, you'll hear how we, at new New Relic, help our customers understand how to decipher _perceived performance_, which represents how end users experience their applications.
-
-**WIP: Need session**
+In [this session](deciphering-perceived-performance/README.md), you'll hear how we, at new New Relic, help our customers understand how to decipher _perceived performance_, which represents how end users experience their applications.
 
 ## How Observability-Driven Development Accelerates DevOps Transformations (3:00 PM PDT)
 
