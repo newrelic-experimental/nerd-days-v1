@@ -28,7 +28,7 @@ Nerd Days is a full-day conference with five tracks:
 
 - [Fundamentals](fundamentals-track/README.md)
 - [Observability](observability-track/README.md)
-- Cloud Migration
+- [Cloud Migration](cloud-migration-track/README.md)
 - DevOps Journey
 - Open-Source Practices
 
