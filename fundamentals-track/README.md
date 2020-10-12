@@ -1,38 +1,25 @@
 # Nerd Day Fundamentals Track
-The New Relic Nerd Days Fundamentals track will give you everything you need to get up and running with New Relic.
 
-Over the course of 5 hours you will get a web application up and reporting to New Relic with front and back end monitoring, build dashboards and alert policies, add custom data to help you understand your business, and set up proactive functionality monitoring with a Synthetic scripted browser.
+Over the course of five sessions, you'll use New Relic to instrument a web app with front and back end monitoring, build dashboards and alert policies, add custom data to help you understand your business, and set up proactive functionality monitoring with a Synthetics scripted browser.
 
-### Instrumenting your service using agents
-In this session you will get started by setting up New Relic observability for a pre-built web application application.
-You will set up:
-APM (application performance monitoring) to understand the performance of the back end.
-Browser monitoring to understand the user experience
+> **Note:** While each session in this track builds upon knowledge from the sessions before it, you can still learn from each session on its own.
 
+## Instrumenting Your Service Using Agents (10:00 AM PDT)
 
-### Exploring your data with NRQL
-In this session, you’ll learn how to query your data with NRQL and build dashboards.
-You will become familiar with:
-The data explorer
-The chart builder
-NRQL querying including aggregating, grouping, and conditional selects
+In [this session](instrumenting-your-service-using-agents/README.md), you'll set up New Relic observability for a pre-built web application.
 
-### Custom Instrumentation
-In this session you’ll see how quick and easy it is to add custom attributes and page action events to gather business metrics from your application and build visualizations around that data.
+## Exploring Your Data with NRQL (11:00 AM PDT)
 
-### Alert Best Practices
-In this session you’ll learn everything you need to know about setting up effective alert policies including:
-Effective alerting strategies
-How to create meaningful alert policies and conditions
-NRQL alerts
+In [this session](exploring-your-data-with-nrql/README.md), you’ll learn how to query your data with NRQL and build dashboards.
 
-### True Availability Using Synthetics
-So your app is up and running, but is functioning the way you expect? In this session, you’ll learn how to proactively monitor your site as well as how to verify your checkout functionality is operating as expected using a Synthetics Scripted Browser.
+## Custom Instrumentation (1:00 PM PDT)
 
+In [this session](custom-instrumentation/README.md), you’ll see how quick and easy it is to use custom attributes and page action events to gather business metrics from your application and build visualizations around that data.
 
-## Prerequisites
-1. A New Relic account
-> If you dont have an account -  [Free Tier Sign Up Link](https://newrelic.com/signup)
-2. A glitch account - [Free Sign up](www.glitch.com)
-3. Your New Relic License key (which you can find in under the account settings drop down)
-4. A selenium script recorder (recommended Selenium IDE for chrome, and New Relic Synthetics extention for Selenium IDE)
+## Alert Best Practices (2:00 PM PDT)
+
+In [this session](alert-best-practices/README.md), you’ll learn everything you need to know about setting up effective alert policies.
+
+## True Availability Using Synthetics (3:00 PM PDT)
+
+In [this session](true-availability-using-synthetics/README.md), you’ll learn how to understand if your app is functioning how you expect it to.
