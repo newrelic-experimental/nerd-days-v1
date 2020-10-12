@@ -3,6 +3,7 @@
 [![Example Code header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Example_Code.png)](https://opensource.newrelic.com/oss-category/#example-code)
 
 # Nerd Days V1 Guide
+
 __What is Nerd Days?__
 
 A __*FREE*__, developer-focused, digital conference that covers a range of topics for all skill sets. Sessions include:
@@ -16,7 +17,13 @@ This repo provides everything you need for Nerd Days 1.0, including a catalog of
 
 Use this guide to prepare for your sessions so that you can follow along.
 
+> **IMPORTANT!** Nerd Days 1.0 is a virtual event powered by [Hopin](https://hopin.to/). Please note that Hopin [is not fully compatible](https://support.hopin.to/en/articles/2559500-browser-compatibility-for-online-events-on-hopin#:~:text=We%20recommend%20running%20a%20desktop,is%20not%20compatible%20on%20desktops) with all browsers. We recommend you use the latest version of one of the following compatible browsers:
+>
+> - Google Chrome
+> - Mozilla Firefox
+
 ## Getting Started
+
 Nerd Days is a full-day conference with five tracks:
 
 - [Fundamentals](fundamentals-track/README.md)
