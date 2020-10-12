@@ -4,17 +4,11 @@ A 60-minute workshop for building New Relic One applications.
 
 > **Note:** This session assumes some exposure to New Relic One programmability. (For example, [New Relic University's Programmability 101 course](https://learn.newrelic.com/series/webcasts/live-learncast-new-relic-one-programmability).)
 
-This workshop assumes you have __completed the following prerequisites:__
-
-1. You have the NR1 CLI installed
-2. Your account profile with API key created
-3. You can create, serve, and view Nerdpacks on your local machine
-
 ## Prerequisites
 
 > **Important!** Please install software, create accounts, or follow any other instructions **before** attending this Nerd Days session. This will ensure that you're ready for the hands-on labs. We want you to spend your lab time learning, rather than setting up your environment.
 
-1. [A New Relic account](https://newrelic.com/signup)
+1. [A New Relic account](https://newrelic.com/signup) with [API key](https://docs.newrelic.com/docs/apis/get-started/intro-apis/types-new-relic-api-keys#personal-api-key) created
 2. [NR1 CLI](#installing-nr1-cli)
 3. [Nerdpack manager role](https://docs.newrelic.com/docs/accounts/accounts/roles-permissions/add-update-users)
 4. [Node 10+](https://nodejs.org/en/)
