@@ -6,7 +6,7 @@ In [this session](new-relic-cli-wizardry/README.md), you'll learn to use the New
 
 ## New Relic Applied Intelligence (11:00 AM PDT)
 
-**WIP: Need abstract**
+In [this session](nr-applied-intelligence/README.md), you'll learn why you should use Proactive Detection to monitor your systems and how to get started.
 
 ## Exploring Data with NerdGraph (1:00 PM PDT)
 
