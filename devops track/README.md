@@ -2,7 +2,7 @@
 
 ## Delivering SRE as a Service (10:00 AM PDT)
 
-**WIP: Need an abstract**
+In [this session](sre-as-a-service/README.md), you'll learn how to focus on your business and utilize a service to easily automate, manage, and operate your application and infrastructure effectively on-premises or in the cloud.
 
 ## Logging for Modern Organizations (11:00 AM PDT)
 

@@ -2,20 +2,11 @@
 
 A 60-minute workshop for understanding and utilizing Third Party Secrets in your New Relic Application.
 
-The material assumes some exposure to New Relic One programmability. Ex: NRU's Programmability 101 course.
+> **Note:** This session assumes some exposure to New Relic One programmability. (For example, [New Relic University's Programmability 101 course](https://learn.newrelic.com/series/webcasts/live-learncast-new-relic-one-programmability).)
 
----
+## Prerequisites
 
-This workshop assumes you have **completed the following prerequisites:**
-
-## Prerequisites Checklist
-
-1. Setup a free New Relic account
-2. Install the NR1 CLI
-3. Setup your Dev environment
-4. Build your sample app
-5. NPM install the Nr1-community component library
-6. Decide on which 3rd party service you want to fetch data from
+> **Important!** Please install software, create accounts, or follow any other instructions **before** attending this Nerd Days session. This will ensure that you're ready for the hands-on labs. We want you to spend your lab time learning, rather than setting up your environment.
 
 ### 1. Get a free New Relic Account
 
