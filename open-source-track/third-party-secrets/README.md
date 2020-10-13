@@ -41,7 +41,7 @@ Need more help? see our [Dev environment setup guide](https://developer.newrelic
 1. When install the `NR1` CLI tool be sure to follow all 6 steps in the Quick Start Guide to create your first application.
 2. Open your application locally in your favorite code editor.
 
-`Need more help? see our [Hello World tutorial guide](https://developer.newrelic.com/build-apps/build-hello-world-app) and our
+Need more help? see our [Hello World tutorial guide](https://developer.newrelic.com/build-apps/build-hello-world-app) and our
 [NerdStorageVault tutorial guide](https://developer.newrelic.com/explore-docs/nerdstoragevault)
 
 ### 5. 3rd Party Service
