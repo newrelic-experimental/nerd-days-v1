@@ -52,3 +52,5 @@ Need more help? see our [Hello World tutorial guide](https://developer.newrelic.
 ### Sample Application
 
 You can find a simple sample application in this [REPO](https://github.com/jpvajda/nerddaysV1) to get you started!
+
+![App Example](./app.png)
