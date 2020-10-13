@@ -2,11 +2,20 @@
 
 A 60-minute workshop for understanding and utilizing Third Party Secrets in your New Relic Application.
 
-> **Note:** This session assumes some exposure to New Relic One programmability. (For example, [New Relic University's Programmability 101 course](https://learn.newrelic.com/series/webcasts/live-learncast-new-relic-one-programmability).)
+The material assumes some exposure to New Relic One programmability. Ex: NRU's Programmability 101 course.
 
-## Prerequisites
+---
 
-> **Important!** Please install software, create accounts, or follow any other instructions **before** attending this Nerd Days session. This will ensure that you're ready for the hands-on labs. We want you to spend your lab time learning, rather than setting up your environment.
+This workshop assumes you have **completed the following prerequisites:**
+
+## Prerequisites Checklist
+
+1. Setup a free New Relic account
+2. Install the NR1 CLI
+3. Setup your Dev environment
+4. Build your sample app
+5. NPM install the Nr1-community component library
+6. Decide on which 3rd party service you want to fetch data from
 
 ### 1. Get a free New Relic Account
 
@@ -22,7 +31,7 @@ A 60-minute workshop for understanding and utilizing Third Party Secrets in your
 
 1. Install Node 10+ [NodeJs](https://nodejs.org/en/)
 2. If you've installed Node.js, then you also have NPM installed which is needed
-3. NPM install the [Nr1-community component library](https://www.npmjs.com/package/@newrelic/nr1-community/v/0.0.1-alpha.4)
+3. NPM install the [Nr1-community component library](https://www.npmjs.com/package/@newrelic/nr1-community/v/0.0.1-alpha.5)
 4. be sure to run `npm install @newrelic/nr1-community@next` to grab the correct alpha package.
 
 Need more help? see our [Dev environment setup guide](https://developer.newrelic.com/build-apps/set-up-dev-env)
@@ -39,6 +48,6 @@ Need more help? see our [Hello World tutorial guide](https://developer.newrelic.
 1. Decide what 3rd party service you'd like to retrieve data from.
 2. setup a Personal Access Token, API Key, or license key for that service with the proper READ permissions.
 
-### 6. Sample Application
+### Sample Application
 
 You can find a simple sample application in this [REPO](https://github.com/jpvajda/nerddaysV1) to get you started!
