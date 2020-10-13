@@ -42,7 +42,7 @@ Need more help? see our [Dev environment setup guide](https://developer.newrelic
 2. Open your application locally in your favorite code editor.
 
 `Need more help? see our [Hello World tutorial guide](https://developer.newrelic.com/build-apps/build-hello-world-app) and our
-[NerdStorageVault tutorial guide]()
+[NerdStorageVault tutorial guide](https://developer.newrelic.com/explore-docs/nerdstoragevault)
 
 ### 5. 3rd Party Service
 
